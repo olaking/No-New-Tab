@@ -11,7 +11,7 @@ When you exceed your defined limit, the extension:
 2. **Triggers** the "Drake Protocol"—a centered visual overlay on your active page to signal a breach of focus.
 
 ## 🎨 Branding & Modes
-'No News Tabs' name was inspired by Dj Khaled ft Drake's 'No New Friends song.
+'No New Tab' name was inspired by Dj Khaled ft Drake's 'No New Friends song.
 
 The extension uses a custom-branded interface with specific productivity tiers:
 
