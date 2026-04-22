@@ -1,15 +1,46 @@
-:root {
-    color-scheme: light dark;
+body {
+    width: 200px;
+    padding: 12px;
+    background-color: #201A1E; /* Black */
+    font-family: system-ui, sans-serif;
+    color: #F8F5F1; /* Isabelline */
 }
 
-body {
-    width: 100px;
-    padding: 10px;
-
-    font-family: system-ui;
+.header {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #CBB096; /* Rodeo Dust */
+    border-bottom: 1px solid #8C7F86; /* Border Black */
+    padding-bottom: 6px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-    /* Dark Mode styles go here. */
+.mode-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    background: transparent;
+    border: 1px solid #8C7F86; /* Border Black */
+    color: #F8F5F1; /* Isabelline */
+    cursor: pointer;
+    text-align: left;
+    border-radius: 2px;
+    transition: all 0.2s;
+}
+
+.mode-btn:hover {
+    background-color: #E4D4C8; /* Champagne */
+    color: #201A1E; /* Black */
+}
+
+.mode-btn.active {
+    background-color: #10372C; /* Deep Green */
+    border-color: #CBB096; /* Rodeo Dust */
+    color: #F8F5F1;
+}
+
+.mode-btn[data-limit="323"].active {
+    background-color: #6E2B33; /* Oxblood */
 }
