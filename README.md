@@ -43,4 +43,4 @@ Since this is an open-source Safari extension, you must enable developer mode:
 * **Custom CSS Injection** for the intervention overlay.
 
 ## 📝 License
-This project is open-source. Feel free to fork and customize your own "Protocols."
+This project is open-source. Feel free to fork and customize your own.
